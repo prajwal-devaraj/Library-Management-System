@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        /* General body styles */
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to bottom, #fbc2eb, #a6c1ee);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Container for the main content */
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            width: 90%;
+            transform: translateY(-20px);
+            animation: fadeIn 0.8s ease-in-out;
+        }
+
+        /* Animation for container fade-in */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Main heading styles */
+        h1 {
+            font-size: 2.8rem;
+            color: #7f53ac;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        /* Subheading styles */
+        h2 {
+            font-size: 1.6rem;
+            color: #4a90e2;
+            margin-bottom: 30px;
+            font-weight: normal;
+        }
+
+        /* Link buttons container */
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        /* Link button styles */
+        .links a {
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 12px 25px;
+            border: 2px solid #7f53ac;
+            border-radius: 10px;
+            background: #ffffff;
+            color: #7f53ac;
+            transition: all 0.3s ease-in-out;
+            display: inline-block;
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Hover effect for link buttons */
+        .links a:hover {
+            background: #7f53ac;
+            color: #ffffff;
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(127, 83, 172, 0.3);
+        }
+
+        /* Footer styles */
+        footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #666;
+            text-align: center;
+        }
+
+        /* Media Query for smaller screens */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2.2rem;
+            }
+
+            h2 {
+                font-size: 1.4rem;
+            }
+
+            .links a {
+                font-size: 1rem;
+                padding: 10px 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Library Management System</h1>
+        <h2>Kent State University</h2>
+        <div class="links">
+            <a href="/dashboard">Dashboard</a>
+            <a href="/add_book">Add Book</a>
+            <a href="/view_books">View Books</a>
+            <a href="/issue_book">Issue Book</a>
+            <a href="/return_book">Return Book</a>
+        </div>
+        <footer>
+            © 2024 Kent State University | All Rights Reserved
+        </footer>
+    </div>
+</body>
+</html>
