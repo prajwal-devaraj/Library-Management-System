@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Set a secret key for session management
 
 # MongoDB connection (update with your credentials)
-MONGO_URI = "mongodb+srv://pkadam:piyushaK%400709@cluster0.1kt2x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = "mongodb+srv://pdevaraj:password*123@cluster0.5mbyxuk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 client = MongoClient(MONGO_URI)
 db = client['library_management']  # Database name
 books_collection = db['books']
