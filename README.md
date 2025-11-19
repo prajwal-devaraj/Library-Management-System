@@ -2,18 +2,18 @@
 
 This project is a **Library Management System** that helps manage the operation of a library. It allows administrators to manage books, users, and transactions such as issuing and returning books. The system aims to streamline the library process, making it more efficient and user-friendly.
 
-📂 **GitHub Repository:** [Library Management System](https://github.com/prajwaldevaraj-2001/Library-Management-System)
+**GitHub Repository:** [Library Management System](https://github.com/prajwaldevaraj-2001/Library-Management-System)
 
 ---
 
-## 🚀 Overview
+## Overview
 
 The system is designed to:
 - Manage **books** and **users**.
 - Perform **issue** and **return** of books.
 - Track **due dates** and **fines** for late returns.
 
-## 🔹 Key Features:
+## Key Features:
 - **Book Management**: Add, update, and remove books in the library.
 - **User Management**: Add, update, and remove users.
 - **Issue & Return Books**: Manage book issuance and returns with due dates.
@@ -23,7 +23,7 @@ The system is designed to:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Backend**: Python
 - **Frontend**: HTML, CSS (optional)
@@ -32,26 +32,26 @@ The system is designed to:
 
 ---
 
-## ⚙️ Installation & Setup
-🔹 1. Clone the Repository</br>
+## Installation & Setup
+1. Clone the Repository</br>
 git clone https://github.com/prajwaldevaraj-2001/Library-Management-System.git</br>
 cd Library-Management-System</br>
 
-🔹 2. Install Dependencies</br>
+2. Install Dependencies</br>
 Make sure to install the required libraries before running the application:</br>
 pip install -r requirements.txt</br>
 
-🔹 3. Run the Application</br>
+3. Run the Application</br>
 If you're running the system as a standalone Python application with a GUI:</br>
 python main.py</br>
 If you're using a web version with HTML, CSS, and JavaScript, you can serve the templates with Flask:</br>
 flask run</br>
 
-🔹 4. Access the System</br>
+4. Access the System</br>
 For the GUI version, it will open as a window on your desktop. For the web version, navigate to http://127.0.0.1:5000/ in your browser.
 
 ## 🔧 Usage
-📌 Features in Action
+Features in Action
 1. Book Management
 - Add New Book: Add a book to the library by providing details like title, author, genre, and quantity.
 - View Books: Browse through the available books in the library.
@@ -65,7 +65,7 @@ For the GUI version, it will open as a window on your desktop. For the web versi
 4. Search Functionality
 - Search for books and users with ease.
 
-## 📊 Example Usage
+## Example Usage
 After running the application:
 
 - Book Management:
@@ -81,15 +81,15 @@ Transactions:
 - Issue a book to a user.
 Track when the book is due for return and calculate fines based on the number of late days.
 
-## 📝 Future Improvements
-- ✅ Web Interface: Improve user experience by developing a web interface with Flask or Django.
-- ✅ Advanced Features: Integrate barcode scanning for quick book check-ins and check-outs.
-- ✅ Fine Calculation: Implement a more detailed fine system that accounts for overdue books and applies penalties based on duration.
+## Future Improvements
+- Web Interface: Improve user experience by developing a web interface with Flask or Django.
+- Advanced Features: Integrate barcode scanning for quick book check-ins and check-outs.
+- Fine Calculation: Implement a more detailed fine system that accounts for overdue books and applies penalties based on duration.
 
 
-## 📂 Project Structure
+## Project Structure
 
-```plaintext
+```
 Library-Management-System/
 │
 ├── assets/                       # Images, Icons, and other assets
