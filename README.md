@@ -108,3 +108,12 @@ Library-Management-System/
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # Documentation
 └── main.py                        # Entry point to run the system
+
+```
+
+Developed by 
+
+Prajwal Devaraj
+
+pdevaraj001@gmail.com
+
